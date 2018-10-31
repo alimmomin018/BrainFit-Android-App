@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#3f51b5"
+    tools:context="com.application.brainfit.RegisterActivity">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:hint="Username"
+        android:ems="10"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="80dp"
+        android:background="@color/white"
+        android:id="@+id/username" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:hint="Password"
+        android:layout_below="@+id/username"
+        android:layout_alignParentStart="true"
+        android:id="@+id/password" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="Country"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:layout_below="@+id/nameakanumber"
+        android:layout_alignParentStart="true"
+        android:id="@+id/ageakacountry" />
+
+
+    <Button
+        android:text="Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ageakacountry"
+        android:id="@+id/registerbtn"
+        android:layout_marginTop="10dp"
+        android:background="#ea4c88"
+        android:textColor="@color/white"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="number"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:hint="Number"
+        android:ems="10"
+        android:id="@+id/nameakanumber"
+        android:layout_below="@+id/password"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

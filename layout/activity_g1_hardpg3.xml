@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_g1_hardpg3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.application.brainfit.G1Hardpg3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:text="Q1. Identify the food "
+        android:textSize="27dp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg1"
+        android:layout_below="@+id/tv1">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q1rb1"
+            android:text="Waffles"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q1rb2"
+            android:text="Muffin"
+            android:textSize="25dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q1rb3"
+            android:text="Cake"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q1rb4"
+            android:text="Pie"
+            android:textSize="25dp"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2"
+        android:text="Q2. How many quarters were there in the picture?"
+        android:textSize="27dp"
+        android:layout_below="@+id/rg1"
+        android:layout_marginTop="20dp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg2"
+        android:layout_below="@+id/tv2">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q2rb1"
+            android:text="2"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q2rb2"
+            android:text="4"
+            android:textSize="25dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q2rb3"
+            android:text="5"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q2rb4"
+            android:text="6"
+            android:textSize="25dp"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv3"
+        android:text="Q3. Which flavor ice cream was topped on the supper?"
+        android:textSize="27dp"
+        android:layout_below="@+id/rg2"
+        android:layout_marginTop="20dp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg3"
+        android:layout_below="@+id/tv3">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q3rb1"
+            android:text="Chocolate"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q3rb2"
+            android:text="Mango"
+            android:textSize="25dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q3rb3"
+            android:text="Vanilla"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q3rb4"
+            android:text="Strawberry"
+            android:textSize="25dp"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv4"
+        android:text="Q4. Choose the correct toppings on the food."
+        android:textSize="27dp"
+        android:layout_below="@+id/rg3"
+        android:layout_marginTop="20dp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg4"
+        android:layout_below="@+id/tv4">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q4rb1"
+            android:text="Berry, Ice-cream, Maple syrup"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q4rb2"
+            android:text="Apple, Ice-cream, Cake"
+            android:textSize="25dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q4rb3"
+            android:text="Mango, Ice-cream, Whipping cream	"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q4rb4"
+            android:text="Cherry, Ice-cream, Sauce	"
+            android:textSize="25dp"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv5"
+        android:text="Q5. What color was the table? "
+        android:textSize="27dp"
+        android:layout_below="@+id/rg4"
+        android:layout_marginTop="20dp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg5"
+        android:layout_below="@+id/tv5">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q5rb1"
+            android:text="Blue"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q5rb2"
+            android:text="Black"
+            android:textSize="25dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q5rb3"
+            android:text="Red"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q5rb4"
+            android:text="Green"
+            android:textSize="25dp"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nextbtn"
+        android:layout_below="@id/rg5"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="30dp"
+        android:text="NEXT"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="540dp"
+        android:background="@drawable/g1hpic3"
+        android:id="@+id/imgview"/>
+
+</RelativeLayout>
+</ScrollView>

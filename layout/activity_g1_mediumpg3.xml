@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_g1_mediumpg3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.application.brainfit.G1Mediumpg3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:text="Q1. How many photo frames were in the room?"
+        android:textSize="27dp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg1"
+        android:layout_below="@+id/tv1">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q1rb1"
+            android:text="3"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q1rb2"
+            android:text="5"
+            android:textSize="25dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q1rb3"
+            android:text="7"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q1rb4"
+            android:text="1"
+            android:textSize="25dp"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2"
+        android:text="Q2. How many stuff toys were on the desk?  "
+        android:textSize="27dp"
+        android:layout_below="@+id/rg1"
+        android:layout_marginTop="20dp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg2"
+        android:layout_below="@+id/tv2">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q2rb1"
+            android:text="2"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q2rb2"
+            android:text="0"
+            android:textSize="25dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q2rb3"
+            android:text="1"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q2rb4"
+            android:text="7"
+            android:textSize="25dp"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv3"
+        android:text="Q3. What was the color of the bed sheet? "
+        android:textSize="27dp"
+        android:layout_below="@+id/rg2"
+        android:layout_marginTop="20dp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg3"
+        android:layout_below="@+id/tv3">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q3rb1"
+            android:text="Green"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q3rb2"
+            android:text="Yellow"
+            android:textSize="25dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q3rb3"
+            android:text="Pink"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q3rb4"
+            android:text="Blue"
+            android:textSize="25dp"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv4"
+        android:text="Q4. What was the color of the room’s wall?  "
+        android:textSize="27dp"
+        android:layout_below="@+id/rg3"
+        android:layout_marginTop="20dp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg4"
+        android:layout_below="@+id/tv4">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q4rb1"
+            android:text="Red"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q4rb2"
+            android:text="Yellow"
+            android:textSize="25dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q4rb3"
+            android:text="Pink"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q4rb4"
+            android:text="Purple"
+            android:textSize="25dp"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv5"
+        android:text="Q5. What was the color of the chair?"
+        android:textSize="27dp"
+        android:layout_below="@+id/rg4"
+        android:layout_marginTop="20dp"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg5"
+        android:layout_below="@+id/tv5">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q5rb1"
+            android:text="Gray"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q5rb2"
+            android:text="Black"
+            android:textSize="25dp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q5rb3"
+            android:text="Orange"
+            android:textSize="25dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/q5rb4"
+            android:text="Red"
+            android:textSize="25dp"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nextbtn"
+        android:layout_below="@id/rg5"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="30dp"
+        android:text="NEXT"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="540dp"
+        android:background="@drawable/g1mpic3"
+        android:id="@+id/imgview"/>
+
+</RelativeLayout>
+</ScrollView>

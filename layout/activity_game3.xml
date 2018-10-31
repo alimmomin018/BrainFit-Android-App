@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.application.brainfit.Game3">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Levels"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="120dp"
+        android:id="@+id/textView" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="EASY"
+        android:id="@+id/easy"
+        android:background="#3f51b5"
+        android:textColor="#ffffff"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="35dp"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="MEDIUM"
+        android:id="@+id/medium"
+        android:background="#3f51b5"
+        android:textColor="#ffffff"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="210dp"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="hard"
+        android:id="@+id/hard"
+        android:background="#3f51b5"
+        android:textColor="#ffffff"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="35dp"
+        android:layout_below="@+id/easy"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="EXPERT"
+        android:id="@+id/expert"
+        android:background="#3f51b5"
+        android:textColor="#ffffff"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="210dp"
+        android:layout_below="@+id/medium"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_below="@+id/expert"
+        android:layout_marginTop="110dp"
+        android:text="Note: Type the given text"/>
+
+
+</RelativeLayout>

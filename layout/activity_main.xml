@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.application.brainfit.MainActivity"
+    android:background="#3f51b5">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:hint="Username"
+        android:layout_marginTop="130dp"
+        android:ems="10"
+        android:textColor="#222222"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/white"
+        android:id="@+id/username" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textPassword"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Password"
+        android:textColor="#222222"
+        android:layout_below="@+id/username"
+        android:layout_alignParentStart="true"
+        android:id="@+id/password" />
+
+    <Button
+        android:text="Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/white"
+        android:background="#ea4c88"
+        android:id="@+id/loginbtn" />
+
+    <TextView
+        android:text="Register Here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:textColor="@color/white"
+        android:id="@+id/register" />
+
+
+</RelativeLayout>
